@@ -32,16 +32,50 @@
     <a href="blog.html">Blog</a>
     <a href="about.html">About</a>
     <a href="gear.html">Gear</a>
+    <a href="Books.html">Books</a>
     </p>
+
+    <!--img para poner imagenes-->
+    <img src="img/setup.jpg" width="500" alt="photo"/>
+    
 
     <!-- (descripcion)p es parrafo, br es para la division de parrafo-->
     <p>Bienvenidos a mi blog. Aquí estaré publicando parte de los que pasa por mi cabeza, siento que el escribir <br> 
         ayudar mucho organizar las ideas que tengo en mi cabeza actualmente en un mundo muy rapido.
     </p>
 
-    <!--img para poner imagenes-->
-    <img src="img/setup.jpg" width="500" />
 
+    <!--Contador-->
+
+    <span>
+        Colombia, Bogota → 
+    <a id="ColombiaTime" href="https://time.is/es/Colombia">00:00:00</a>
+ </span>
+
+<script src="Reloj/Reloj Colombia.js"></script>
+<br>
+ <span>
+        Noruega, Oslo → 
+    <a id="NoruegaTime" href="https://time.is/es/Oslo">00:00:00</a>
+ </span>
+
+<script src="Reloj/NoruegaTime.js"></script>
+
+  <hr>
+
+    <p>Si quieres que te mande un correo cuando suba un nuevo blog, solo escribe tu correo aqui.</p>
+
+    <!--Correo-->
+    <form>
+        <input type="text" placeholder="Correo"/>
+        <input type="submit" onclick="BotonEnviar()"/>
+
+         <script>
+        function BotonEnviar() {
+            document.getElementById("EnderEye").play();
+        }
+    </script>
+    </form>
 
 </body>
 </html>
