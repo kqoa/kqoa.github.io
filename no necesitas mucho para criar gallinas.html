@@ -9,20 +9,56 @@
 <body>
     <header>
     <!--Titulo del contenido-->
-    <a href="index.html">
-         <h1 id="Titulo">Juan Diego's Blog</h1>
+
+    <a href="#" onclick="playAudio()">
+         <h1>Juan Diego's Blog</h1>
     </a>
-   
+
+    <audio id="EnderEye">
+        <source src="img/EnderEye.ogg" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function playAudio() {
+            document.getElementById("EnderEye").play();
+        }
+    </script>
+
  </header>
+
+ <!--Barra de navegacion-->
+    <p>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="gear.html">Gear</a>
+    </p>
 
     <header>    
         <h1>No necesitas mucho para criar gallinas</h1>
     <!-- p es parrafo, br es para la division de parrafo-->
     <p>23 Dic, 2025</p>
 
-    <p>Desde 2019 dasdja</p>
+    <p>No hace mucho, en 2023, mi padre quería tener un kiko. Este tipo de raza en pollos se caracteriza por tener un tamaño muy pequeño <br>
+        respecto a otros pollos. El caso es que mi hermana, para el cumpleaños de mi padegaló un kiko. Nuestra casa tiene un patio donde <br>
+        estuvo y, tiempo después, mi padre le compró una gallina.
+    </p>
 
-    <!--img para poner imagenes-->
+    <p>Con el tiempo, compré más razas de gallinas y ahora tengo 4 gallinas criollas y 5 kikos. Y, sabes, no cambiaría esa emoción de <br>
+        levantarme todas las mañanas y que lo primero que veo sean las gallinas esperando a que les dé su comida.
+    </p>
+
+    <p>Lo más satisfactorio de criar pollos es que estos te lo agradecen con los huevos de calidad que te dan. Por ejemplo, mi patio antes <br>
+        era un basurero de madera (no miento). Cuando realmente quise criar mis pollos, tuve que limpiar todo el patio y dejar únicamente <br>
+        lo de mis gallinas. Ahora tienen espacio y pueden escarbar toda la tierra que quieran. Por otra parte, si los alimentas de la manera <br>
+        correcta, ellas te darán de igual manera huevos de excelente calidad.
+    </p>
+
+    <p>Y, como ves, no necesité de un terreno muy grande para criar mis pollos ni necesité comprar muchas cosas. Muchas veces pensamos que <br>
+        para hacer algo (no solo criar pollos) necesitamos mucho y postergamos esas actividades que sabemos que nos benefician, simplemente <br>
+        por buscar “el momento”. El momento empieza por hacer lo que quieres hacer con lo que tienes.</p>
+        
+    <img src="img/lizzie.jpg" width="300" height="500">
 
     </header>
 </body>
